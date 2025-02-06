@@ -5,6 +5,8 @@
     <meta name="Cynthia Leysen" content="author" />
     <meta name="description" content="Webpage via github." />
     <title>Webpage Designer Portaal</title>
+
+    <!--     <link rel="stylesheet" type="text/css" href="/css/style.css" /> -->
     <style>
       body {
         background: #a9a9a9;
@@ -16,283 +18,47 @@
         margin-left: auto;
         margin-right: auto;
       }
-
-      /*koppen*/
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        color: #444;
-        font-weight: normal;
-        line-height: 1;
-        margin-bottom: 0.3em;
-      }
-
-      h4,
-      h5,
-      h6 {
-        font-weight: bold;
-      }
-
-      h1 {
-        font-size: 1.6em;
-      }
-      h2 {
-        font-size: 1.4em;
-      }
-      h3 {
-        font-size: 1.3em;
-      }
-      h4 {
-        font-size: 1.2em;
-      }
-      h5 {
-        font-size: 1.1em;
-      }
-      h6 {
-        font-size: 1em;
-      }
-
-      /*Tekst elementen*/
-      p {
-        margin-bottom: 1em;
-      }
-
-      /* lijsten*/
-      ul {
-        list-style-type: disc;
-        margin: 0 1.5em 1.5em 0;
-      }
-
-      /* header */
-      #header {
-        background-color: #303030;
-        padding: 32px 32px 0 46px;
-      }
-
-      #header-nav {
-        height: 39px;
-        text-align: right;
-        color: #666;
-        font-size: 1.2em;
-      }
-
-      #header-nav-link a {
-        color: #999;
-        text-decoration: none;
-      }
-
-      #header-nav-link span.text-separator {
-        color: #444;
-        padding: 0 7px;
-      }
-
-      #logo {
-        color: #fff;
-      }
-      #site-title a {
-        text-decoration: none;
-      }
-      #site-title,
-      #site-title a {
-        color: #fff;
-      }
-      #site-slogan {
-        color: #b58361;
-        font-size: 1.3em;
-      }
-
-      /* primaire navigatie */
-
       #primaire-nav {
         background-color: #ba702e;
         min-height: 46px;
         padding: 0 8px;
       }
-
-      #primaire-nav a {
-        color: #eae6dd;
-        display: block;
-        font-weight: bold;
-        font-size: 1.3em;
-        padding: 12px;
-      }
-
-      #primaire-nav a:hover {
-        color: #fff;
-      }
-
       ul.tab {
         display: inline;
         margin: 0;
         padding: 0;
       }
 
-      ul.tab li {
-        float: left;
-        list-style: none;
-      }
-      ul.tab a {
-        text-decoration: none;
-      }
-
-      /*inhoud*/
-      .inhoud {
-        font-size: 1.1em;
-        background-color: #fbfbf8;
-        min-height: 300px;
-      }
-      .inhoud a {
-        color: #999;
-        text-decoration: none;
-      }
-      .inhoud a:hover {
-        color: #000;
-      }
-
-      /*text inhoud*/
-      #tekst-inhoud {
-        padding: 24px;
-      }
-      /* artikel */
-      .artikel {
-        text-align: justify;
-        color: #000;
-      }
-      .artikel-voet {
-        text-align: right;
-        font-size: 0.9em;
-      }
-      .nieuws {
-        height: 90px;
-        text-decoration: none;
-        color: #000;
-      }
-      .nieuws-inhoud {
-        width: 100%; /* Takes up the full width */
-        max-width: 960px; /* Optional: prevent it from getting too wide */
-        background-color: #fff;
-        color: #000;
-        padding: 20px; /* Adds some space inside */
-        box-sizing: border-box; /* Ensures padding doesn’t increase width */
-      }
-
-      .afbeelding {
-        width: 200px; /* Match the new size */
-        height: auto;
-      }
-
-      .nieuws-afbeelding {
-        float: left;
-        width: 80%;
-        margin-right: 15px;
-      }
-      .nieuws img {
-        width: 200px; /* Adjust as needed */
-        height: auto;
-      }
-      .nieuws-afbeelding a {
-        padding-left: 10px;
-      }
-      .nieuws-tekst h3 {
-        font-weight: bold;
-      }
-
-      .article-container {
-        display: flex;
-        align-items: normal;
-      }
-      .article-container img {
-        width: 200px; /* Adjust this size as needed */
-        height: auto; /* Maintain aspect ratio */
-      }
-
-      .article-container .text {
-        flex: 1; /* Ensures text takes the remaining space */
-      }
-
-      /*navigatie in de voet */
-      #voet-nav {
-        background: #808080;
-        border-top: 1px solid #999;
-        font-size: 1.1em;
-        padding: 12px 16px;
-        margin-bottom: 10px;
-      }
-
-      #voet-nav a {
-        color: #ddd;
-        text-decoration: none;
-      }
-
-      #voet-nav a:hover {
-        color: #fff;
-      }
-
-      #voet-nav span.text-separator {
-        color: #999;
-        padding: 0.3px;
-      }
-
-      /*footer*/
-      #footer {
-        color: #666;
-        padding: 0 6px 12px;
-        margin-top: -6px;
-        width: 100%;
-      }
-
-      #footer a {
-        color: #555;
-        text-decoration: none;
-      }
-      #footer a:hover,
-      #bottom .right a:hover {
-        color: #002;
-      }
-      #footer span.text-separator {
-        color: #888;
-        padding: 0 3px;
-      }
-      #footer .right,
-      #footer.right a {
-        color: #777;
-      }
-
-      /*floats*/
-      .left {
-        float: left;
-      }
-      .right {
-        float: right;
+      ul {
+        list-style-type: disc;
+        margin: 0 1.5em 1.5em 0;
       }
     </style>
   </head>
+
   <body>
     <header id="header">
       <div id="logo">
         <h1 id="site-title">
-          <a href="/index.htm">Webpage Designer Portaal</a>
+          <a href="/index.html">Webpage Designer Portaal</a>
         </h1>
         <h2 id="site-slogan">Uw bron voor webdesign onderwerpen</h2>
       </div>
       <nav id="header-nav">
         <div id="header-nav-link">
-          <a href="contact.htm">Contacteer ons</a>
+          <a href="contact.html">Contacteer ons</a>
           <span class="text-separator">|</span>
-          <a href="over ons.htm">Over ons</a>
+          <a href="over ons.html">Over ons</a>
         </div>
       </nav>
     </header>
 
     <nav id="primaire-nav">
       <ul class="tab">
-        <li><a href="/index.htm">Home</a></li>
-        <li><a href="tips.htm">Tips</a></li>
-        <li><a href="nieuws.htm">Nieuws</a></li>
-        <li><a href="formulier.htm">Formulier</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="nieuws.html">Nieuws</a></li>
+        <li><a href="formulier.html">Formulier</a></li>
       </ul>
     </nav>
 
@@ -310,11 +76,11 @@
       </div>
     </section>
     <nav id="voet-nav">
-      <a href="/index.htm">Home</a>
+      <a href="/index.html">Home</a>
       <span class="text-separator">|</span>
-      <a href="tips.htm">Tips</a>
+      <a href="tips.html">Tips</a>
       <span class="text-separator">|</span>
-      <a href="nieuws.htm">Nieuws</a>
+      <a href="nieuws.html">Nieuws</a>
     </nav>
     <footer id=" footer">
       <div class="left">&copy; 2016 Webpage Designer Portaal</div>
